@@ -1,0 +1,46 @@
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "23feb136-a94f-44bb-b6ff-e9d9e598f33b",
+    "id": "57ee53e0-2fbe-40c5-a3f5-b107035e182f",
+    "isDefault": false,
+    "managedByTenants": [],
+    "name": "Azure subscription 1",
+    "state": "Enabled",
+    "tenantDefaultDomain": "petavygmx.onmicrosoft.com",
+    "tenantDisplayName": "Default Directory",
+    "tenantId": "23feb136-a94f-44bb-b6ff-e9d9e598f33b",
+    "user": {
+      "name": "petavy@gmx.net",
+      "type": "user"
+    }
+  },
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "82913d90-8716-4025-a8e8-4f8dfa42b719",
+    "id": "9028ca45-82d0-43a5-b54d-db7d25bdbd3b",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "CZ MED150 - Connected-Customer-Care",
+    "state": "Enabled",
+    "tenantId": "82913d90-8716-4025-a8e8-4f8dfa42b719",
+    "user": {
+      "name": "marcel.petavy@zeiss.com",
+      "type": "user"
+    }
+  },
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "82913d90-8716-4025-a8e8-4f8dfa42b719",
+    "id": "47770d98-3ab9-4064-a4e9-652e7c5cfc31",
+    "isDefault": false,
+    "managedByTenants": [],
+    "name": "CZ MED223 - MUC - Hakodate - Dev",
+    "state": "Enabled",
+    "tenantId": "82913d90-8716-4025-a8e8-4f8dfa42b719",
+    "user": {
+      "name": "marcel.petavy@zeiss.com",
+      "type": "user"
+    }
+  }
+]

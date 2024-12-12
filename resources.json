@@ -1,0 +1,869 @@
+[
+    {
+      "changedTime": "2024-11-26T12:21:29.350917+00:00",
+      "createdTime": "2024-09-05T11:40:47.749628+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_azure_resource/providers/Microsoft.ContainerService/managedClusters/ccc_aks_dev",
+      "identity": {
+        "principalId": "055430bd-f156-4f03-8fd1-56e7eb745945",
+        "tenantId": "82913d90-8716-4025-a8e8-4f8dfa42b719",
+        "type": "SystemAssigned",
+        "userAssignedIdentities": null
+      },
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "ccc_aks_dev",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_azure_resource",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "Base",
+        "size": null,
+        "tier": "Free"
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.ContainerService/managedClusters"
+    },
+    {
+      "changedTime": "2024-09-05T11:51:16.018888+00:00",
+      "createdTime": "2024-09-05T11:41:14.031220+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/publicIPAddresses/51264ae8-cd32-4265-b5e8-74ccd20daf08",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "51264ae8-cd32-4265-b5e8-74ccd20daf08",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "Standard",
+        "size": null,
+        "tier": null
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com",
+        "aks-managed-cluster-name": "ccc_aks_dev",
+        "aks-managed-cluster-rg": "ccc_azure_resource",
+        "aks-managed-type": "aks-slb-managed-outbound-ip"
+      },
+      "type": "Microsoft.Network/publicIPAddresses"
+    },
+    {
+      "changedTime": "2024-12-08T00:18:11.782122+00:00",
+      "createdTime": "2024-09-05T11:41:15.771890+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/loadBalancers/kubernetes",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "kubernetes",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "Standard",
+        "size": null,
+        "tier": null
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/loadBalancers"
+    },
+    {
+      "changedTime": "2024-09-05T11:51:20.779149+00:00",
+      "createdTime": "2024-09-05T11:41:19.865940+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ccc_aks_dev-agentpool",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "ccc_aks_dev-agentpool",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.ManagedIdentity/userAssignedIdentities"
+    },
+    {
+      "changedTime": "2024-10-29T08:50:59.220891+00:00",
+      "createdTime": "2024-09-05T11:41:21.195206+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/networkSecurityGroups/aks-agentpool-40328503-nsg",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "aks-agentpool-40328503-nsg",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/networkSecurityGroups"
+    },
+    {
+      "changedTime": "2024-09-05T11:51:28.170668+00:00",
+      "createdTime": "2024-09-05T11:41:23.424067+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/virtualNetworks/aks-vnet-40328503",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "aks-vnet-40328503",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/virtualNetworks"
+    },
+    {
+      "changedTime": "2024-12-08T00:21:57.281463+00:00",
+      "createdTime": "2024-09-05T11:42:13.794373+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Compute/virtualMachineScaleSets/aks-agentpool-42946248-vmss",
+      "identity": {
+        "principalId": null,
+        "tenantId": null,
+        "type": "UserAssigned",
+        "userAssignedIdentities": {
+          "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ccc_aks_dev-agentpool": {
+            "clientId": "6ab95ab6-18e9-4545-9c05-9efe4c89162f",
+            "principalId": "ad8a5c1c-b2a8-43d8-934e-d99aac033713"
+          }
+        }
+      },
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "aks-agentpool-42946248-vmss",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": {
+        "capacity": 2,
+        "family": null,
+        "model": null,
+        "name": "Standard_D4ds_v5",
+        "size": null,
+        "tier": "Standard"
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com",
+        "aks-managed-azure-cni-overlay": "true",
+        "aks-managed-consolidated-additional-properties": "b7c2c9e0-b4f8-11ef-8754-361d8c208e88",
+        "aks-managed-createOperationID": "",
+        "aks-managed-creationSource": "vmssclient-aks-agentpool-42946248-vmss",
+        "aks-managed-enable-imds-restriction": "false",
+        "aks-managed-kubeletIdentityClientID": "6ab95ab6-18e9-4545-9c05-9efe4c89162f",
+        "aks-managed-operationID": "112f5264-0460-464d-9fa7-2faa70c620d8",
+        "aks-managed-orchestrator": "Kubernetes:1.29.10",
+        "aks-managed-poolName": "agentpool",
+        "aks-managed-resourceNameSuffix": "40328503",
+        "aks-managed-ssh-access": "LocalUser"
+      },
+      "type": "Microsoft.Compute/virtualMachineScaleSets"
+    },
+    {
+      "changedTime": "2024-09-05T11:52:15.620210+00:00",
+      "createdTime": "2024-09-05T11:42:14.665295+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_azure_resource/providers/microsoft.insights/actiongroups/RecommendedAlertRules-AG-1",
+      "identity": null,
+      "kind": null,
+      "location": "global",
+      "managedBy": null,
+      "name": "RecommendedAlertRules-AG-1",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_azure_resource",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "microsoft.insights/actiongroups"
+    },
+    {
+      "changedTime": "2024-09-05T11:54:41.664882+00:00",
+      "createdTime": "2024-09-05T11:44:40.287399+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_azure_resource/providers/microsoft.insights/metricalerts/CPU Usage Percentage - ccc_aks_dev",
+      "identity": null,
+      "kind": null,
+      "location": "global",
+      "managedBy": null,
+      "name": "CPU Usage Percentage - ccc_aks_dev",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_azure_resource",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "microsoft.insights/metricalerts"
+    },
+    {
+      "changedTime": "2024-09-05T11:54:40.887296+00:00",
+      "createdTime": "2024-09-05T11:44:40.293329+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_azure_resource/providers/microsoft.insights/metricalerts/Memory Working Set Percentage - ccc_aks_dev",
+      "identity": null,
+      "kind": null,
+      "location": "global",
+      "managedBy": null,
+      "name": "Memory Working Set Percentage - ccc_aks_dev",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_azure_resource",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "microsoft.insights/metricalerts"
+    },
+    {
+      "changedTime": "2024-09-05T12:37:30.778805+00:00",
+      "createdTime": "2024-09-05T12:27:11.470038+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_acr_resource/providers/Microsoft.ContainerRegistry/registries/cccacrdev",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "cccacrdev",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_acr_resource",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "Basic",
+        "size": null,
+        "tier": "Basic"
+      },
+      "systemData": {
+        "createdAt": "2024-09-05T12:27:11.4935886Z",
+        "createdBy": "sushant.pandey@zeiss.com",
+        "createdByType": "User",
+        "lastModifiedAt": "2024-09-05T12:27:11.4935886Z",
+        "lastModifiedBy": "sushant.pandey@zeiss.com",
+        "lastModifiedByType": "User"
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.ContainerRegistry/registries"
+    },
+    {
+      "changedTime": "2024-10-29T08:50:53.475643+00:00",
+      "createdTime": "2024-10-29T08:40:49.983038+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/publicIPAddresses/kubernetes-ad2b03361975644d29e53073cdfb09ff",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "kubernetes-ad2b03361975644d29e53073cdfb09ff",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "Standard",
+        "size": null,
+        "tier": null
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com",
+        "k8s-azure-cluster-name": "kubernetes",
+        "k8s-azure-service": "default-1730191185159/hakodate-service"
+      },
+      "type": "Microsoft.Network/publicIPAddresses"
+    },
+    {
+      "changedTime": "2024-11-04T01:34:54.876229+00:00",
+      "createdTime": "2024-11-03T20:17:04.447065+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.EventGrid/namespaces/mqtt",
+      "identity": {
+        "principalId": null,
+        "tenantId": null,
+        "type": "None",
+        "userAssignedIdentities": null
+      },
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "mqtt",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": {
+        "capacity": 1,
+        "family": null,
+        "model": null,
+        "name": "Standard",
+        "size": null,
+        "tier": null
+      },
+      "systemData": {
+        "createdAt": "2024-11-03T20:17:04.4561034Z",
+        "createdBy": "marcel.petavy@zeiss.com",
+        "createdByType": "User",
+        "lastModifiedAt": "2024-11-04T01:24:24.0158794Z",
+        "lastModifiedBy": "marcel.petavy@zeiss.com",
+        "lastModifiedByType": "User"
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.EventGrid/namespaces"
+    },
+    {
+      "changedTime": "2024-12-04T12:44:54.363889+00:00",
+      "createdTime": "2024-12-04T12:33:31.648126+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_azure_resource/providers/Microsoft.Kubernetes/connectedClusters/ccc_arc_dev",
+      "identity": {
+        "principalId": "53300d8e-2361-4f14-bba9-a389d31e3c46",
+        "tenantId": "82913d90-8716-4025-a8e8-4f8dfa42b719",
+        "type": "SystemAssigned",
+        "userAssignedIdentities": null
+      },
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "ccc_arc_dev",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_azure_resource",
+      "sku": null,
+      "systemData": {
+        "createdAt": "2024-12-04T12:33:31.6510928Z",
+        "createdBy": "sushant.pandey@zeiss.com",
+        "createdByType": "User",
+        "lastModifiedAt": "2024-12-04T12:40:23.2593158Z",
+        "lastModifiedBy": "64b12d6e-6549-484c-8cc6-6281839ba394",
+        "lastModifiedByType": "Application"
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com",
+        "Datacenter City StateOrDistrict CountryOrRegion": ""
+      },
+      "type": "Microsoft.Kubernetes/connectedClusters"
+    },
+    {
+      "changedTime": "2024-12-04T15:15:06.206081+00:00",
+      "createdTime": "2024-12-04T15:05:01.952133+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/loadBalancers/kubernetes-internal",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "kubernetes-internal",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "Standard",
+        "size": null,
+        "tier": null
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/loadBalancers"
+    },
+    {
+      "changedTime": "2024-12-04T15:46:37.604478+00:00",
+      "createdTime": "2024-12-04T15:36:24.773205+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/privateLinkServices/pls-a0a7151e861d54bbb92c7ac8cedea259",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "pls-a0a7151e861d54bbb92c7ac8cedea259",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com",
+        "k8s-azure-cluster-name": "kubernetes",
+        "k8s-azure-owner-service": "default/dataingress-service-lb"
+      },
+      "type": "Microsoft.Network/privateLinkServices"
+    },
+    {
+      "changedTime": "2024-12-04T15:48:29.065311+00:00",
+      "createdTime": "2024-12-04T15:36:25.428202+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/networkInterfaces/pls-a0a7151e861d54bbb92c7ac8cedea259.nic.8c467e6f-f0f9-4323-ab06-a2477e21d7b6",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "pls-a0a7151e861d54bbb92c7ac8cedea259.nic.8c467e6f-f0f9-4323-ab06-a2477e21d7b6",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "mc_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com",
+        "k8s-azure-cluster-name": "kubernetes",
+        "k8s-azure-owner-service": "default/dataingress-service-lb"
+      },
+      "type": "Microsoft.Network/networkInterfaces"
+    },
+    {
+      "changedTime": "2024-12-04T16:00:15.228109+00:00",
+      "createdTime": "2024-12-04T15:49:58.850279+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_azure_resource/providers/Microsoft.Network/privateEndpoints/ccc_aks_dev_service_privateendpoint",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "ccc_aks_dev_service_privateendpoint",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_azure_resource",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/privateEndpoints"
+    },
+    {
+      "changedTime": "2024-12-04T16:00:11.612910+00:00",
+      "createdTime": "2024-12-04T15:50:11.238201+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_azure_resource/providers/Microsoft.Network/networkInterfaces/ccc_aks_dev_service_privateendpoint-nic",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_azure_resource/providers/Microsoft.Network/privateEndpoints/ccc_aks_dev_service_privateendpoint",
+      "name": "ccc_aks_dev_service_privateendpoint-nic",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_azure_resource",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/networkInterfaces"
+    },
+    {
+      "changedTime": "2024-12-06T14:21:23.633148+00:00",
+      "createdTime": "2024-12-06T14:11:07.336667+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/privateEndpoints/ccc_aks_dev-pe",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "ccc_aks_dev-pe",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/privateEndpoints"
+    },
+    {
+      "changedTime": "2024-12-06T14:21:20.531413+00:00",
+      "createdTime": "2024-12-06T14:11:19.390167+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/networkInterfaces/ccc_aks_dev-pe-nic",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral/providers/Microsoft.Network/privateEndpoints/ccc_aks_dev-pe",
+      "name": "ccc_aks_dev-pe-nic",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "MC_ccc_azure_resource_ccc_aks_dev_germanywestcentral",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/networkInterfaces"
+    },
+    {
+      "changedTime": "2024-04-09T14:47:33.446193+00:00",
+      "createdTime": "2024-04-09T14:37:27.720640+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HospitalZone/providers/Microsoft.Network/virtualNetworks/MedDevice-Simulator-vnet",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "MedDevice-Simulator-vnet",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "HospitalZone",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/virtualNetworks"
+    },
+    {
+      "changedTime": "2024-04-09T14:47:30.400589+00:00",
+      "createdTime": "2024-04-09T14:37:27.726367+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HospitalZone/providers/Microsoft.Network/networkSecurityGroups/MedDevice-Simulator-nsg",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "MedDevice-Simulator-nsg",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "HospitalZone",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/networkSecurityGroups"
+    },
+    {
+      "changedTime": "2024-04-09T14:47:32.443181+00:00",
+      "createdTime": "2024-04-09T14:37:27.741571+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HospitalZone/providers/Microsoft.Network/publicIPAddresses/MedDevice-Simulator-ip",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "MedDevice-Simulator-ip",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "HospitalZone",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "Standard",
+        "size": null,
+        "tier": null
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/publicIPAddresses",
+      "zones": [
+        "1"
+      ]
+    },
+    {
+      "changedTime": "2024-04-09T14:47:30.610210+00:00",
+      "createdTime": "2024-04-09T14:37:30.293604+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_westeurope",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "NetworkWatcher_westeurope",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "NetworkWatcherRG",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/networkWatchers"
+    },
+    {
+      "changedTime": "2024-04-09T14:47:34.765978+00:00",
+      "createdTime": "2024-04-09T14:37:32.130661+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HospitalZone/providers/Microsoft.Network/networkInterfaces/meddevice-simulator70_z1",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "meddevice-simulator70_z1",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "HospitalZone",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/networkInterfaces"
+    },
+    {
+      "changedTime": "2024-09-05T11:51:26.367403+00:00",
+      "createdTime": "2024-09-05T11:41:25.895137+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_germanywestcentral",
+      "identity": null,
+      "kind": null,
+      "location": "germanywestcentral",
+      "managedBy": null,
+      "name": "NetworkWatcher_germanywestcentral",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "NetworkWatcherRG",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/networkWatchers"
+    },
+    {
+      "changedTime": "2024-10-14T09:50:20.621945+00:00",
+      "createdTime": "2024-10-14T09:39:46.461109+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_app_config_resource/providers/Microsoft.AppConfiguration/configurationStores/ccc-app-config-nonprod",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "ccc-app-config-nonprod",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_app_config_resource",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "standard",
+        "size": null,
+        "tier": null
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.AppConfiguration/configurationStores"
+    },
+    {
+      "changedTime": "2024-10-14T10:49:29.629543+00:00",
+      "createdTime": "2024-10-14T09:43:57.857041+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/ccc_keyvault_resource/providers/Microsoft.KeyVault/vaults/ccc-keyvault",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "ccc-keyvault",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "ccc_keyvault_resource",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.KeyVault/vaults"
+    },
+    {
+      "changedTime": "2024-10-17T15:10:55.908853+00:00",
+      "createdTime": "2024-10-17T15:00:53.320395+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HospitalZone/providers/Microsoft.Network/networkSecurityGroups/MED-Device-Simuluator-nsg",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "MED-Device-Simuluator-nsg",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "HospitalZone",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/networkSecurityGroups"
+    },
+    {
+      "changedTime": "2024-10-17T15:10:57.578844+00:00",
+      "createdTime": "2024-10-17T15:00:53.336224+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HospitalZone/providers/Microsoft.Network/publicIPAddresses/MED-Device-Simuluator-ip",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "MED-Device-Simuluator-ip",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "HospitalZone",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "Standard",
+        "size": null,
+        "tier": null
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/publicIPAddresses",
+      "zones": [
+        "1"
+      ]
+    },
+    {
+      "changedTime": "2024-10-17T15:10:56.999814+00:00",
+      "createdTime": "2024-10-17T15:00:56.536056+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HospitalZone/providers/Microsoft.Network/networkInterfaces/med-device-simuluator763_z1",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "med-device-simuluator763_z1",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "HospitalZone",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Network/networkInterfaces"
+    },
+    {
+      "changedTime": "2024-10-17T15:11:32.439384+00:00",
+      "createdTime": "2024-10-17T15:00:57.549598+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HospitalZone/providers/Microsoft.Compute/virtualMachines/MED-Device-Simuluator",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "MED-Device-Simuluator",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "HospitalZone",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Compute/virtualMachines",
+      "zones": [
+        "1"
+      ]
+    },
+    {
+      "changedTime": "2024-10-17T15:10:59.607341+00:00",
+      "createdTime": "2024-10-17T15:00:59.378096+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HOSPITALZONE/providers/Microsoft.Compute/disks/MED-Device-Simuluator_disk1_de7ef1c97d7a4a33b8588fa0e2981093",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/HospitalZone/providers/Microsoft.Compute/virtualMachines/MED-Device-Simuluator",
+      "name": "MED-Device-Simuluator_disk1_de7ef1c97d7a4a33b8588fa0e2981093",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "HOSPITALZONE",
+      "sku": {
+        "capacity": null,
+        "family": null,
+        "model": null,
+        "name": "Premium_LRS",
+        "size": null,
+        "tier": "Premium"
+      },
+      "tags": {
+        "ContactEmailAddress": "daniel.mayer@zeiss.com"
+      },
+      "type": "Microsoft.Compute/disks",
+      "zones": [
+        "1"
+      ]
+    },
+    {
+      "changedTime": "2024-11-20T08:16:43.176858+00:00",
+      "createdTime": "2024-11-20T08:06:42.646669+00:00",
+      "extendedLocation": null,
+      "id": "/subscriptions/9028ca45-82d0-43a5-b54d-db7d25bdbd3b/resourceGroups/czm0-dfc-gen-euw-wa/providers/Microsoft.Security/automations/ZEISS MED DFC SEC ALERT CS",
+      "identity": null,
+      "kind": null,
+      "location": "westeurope",
+      "managedBy": null,
+      "name": "ZEISS MED DFC SEC ALERT CS",
+      "plan": null,
+      "properties": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "czm0-dfc-gen-euw-wa",
+      "sku": null,
+      "tags": {
+        "ContactEmailAddress": "dl.med-cloudsecurity.in@zeiss.com"
+      },
+      "type": "Microsoft.Security/automations"
+    }
+  ]
+  
