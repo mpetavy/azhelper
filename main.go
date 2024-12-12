@@ -85,8 +85,6 @@ func run() error {
 
 	subscriptions := make([]Subscription, 0)
 	tasks.Add(func(ctx context.Context) error {
-		return fmt.Errorf("test-error")
-
 		var err error
 
 		subscriptions, err = ReadSubscriptions()
