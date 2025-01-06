@@ -47,7 +47,7 @@ func ReadResources() ([]Resource, error) {
 
 	cmd := exec.Command("az", "resource", "list")
 
-	ba, err := common.ExecuteCmd(cmd)
+	ba, err := common.RunCmd(cmd)
 	if common.Error(err) {
 		return nil, err
 	}

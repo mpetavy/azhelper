@@ -31,7 +31,7 @@ func ReadSubscriptions() ([]Subscription, error) {
 
 	cmd := exec.Command("az", "account", "list")
 
-	ba, err := common.ExecuteCmd(cmd)
+	ba, err := common.RunCmd(cmd)
 	if common.Error(err) {
 		return nil, err
 	}
